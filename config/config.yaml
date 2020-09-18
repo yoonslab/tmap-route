@@ -1,0 +1,25 @@
+# Tmap Route Config File
+---
+# 모드 ['walking', 'driving']
+mode: walking
+
+# 칼럼 명
+colNames:
+  origins:
+    lat: 출발지_위도
+    long: 출발지_경도
+
+  destination:
+    lat: 목적지_위도
+    long: 목적지_경도
+
+# input, output 디렉토리 명
+dirs:
+  input_dir: input
+  output_dir: output
+
+# input, output 파일 인코딩 명
+# ex) ['cp949', 'euc-kr', 'utf-8', 'utf-8-sig']
+encoding:
+  input: cp949
+  output: utf-8-sig
