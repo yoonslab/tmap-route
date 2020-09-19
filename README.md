@@ -16,30 +16,34 @@ Tmap Route는 Tmap API를 활용하여 **출발지와 목적지 경도/위도 �
 
 ### 환경 설정
 
-![step1](img/step1.png)
 
 1. git에서 파이썬 스크립트 clone
+
+![step1](img/step1.png)
+
 ```sh
 git colne https://github.com/yoonslab/tmap-route
 ```
 
+2. tmap-route 경로로 이동
 
 ![step2](img/step2.png)
 
-2. tmap-route 경로로 이동
 ```sh
 cd tmap-route
 ```
 
+3. 필요 패키지 설치
+
 ![step3](img/step3.png)
 
-3. 필요 패키지 설치
 ```sh
 pip install -r requirements.txt
 ```
-![step4](img/step4.png)
 
 4. **./config/config.yaml** 파일 변경 (옵션 설정)
+
+![step4](img/step4.png)
 
 - `config.yaml` 내용은 다음과 같습니다.
 
