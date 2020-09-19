@@ -15,10 +15,7 @@ CONFIG_PATH = "config/"
 
 
 def load_config(file_path):
-    with open(os.path.join(CONFIG_P
-    
-    
-    ATH, file_path), encoding="utf-8") as file:
+    with open(os.path.join(CONFIG_PATH, file_path), encoding="utf-8") as file:
         config = yaml.safe_load(file)
 
     return config
@@ -48,8 +45,7 @@ def calc_od(file_name, api_key, delay):
         # NameOrigin = row[config['colNames']['origins']['name']]
 
         LatDest = row[config["colNames"]["destination"]["lat"]]
-        LongDest = row[config["colNam
-        es"]["destination"]["long"]]
+        LongDest = row[config["colNames"]["destination"]["long"]]
         
         # NameDest = row[config['colNames']['destination']['name']]
 

@@ -4,8 +4,7 @@ import time
 import argparse
 from tabulate import tabulate
 
-
-# from core import calc_od
+from core import calc_od
 
 if __name__ == "__main__":
     os.system("cls" if os.name == "nt" else "clear")
@@ -61,7 +60,7 @@ if __name__ == "__main__":
         metavar="KEY",
         type=str,
         required=True,
-        help="api key",
+        help="api key [required]",
     )
 
     parser.add_argument(
