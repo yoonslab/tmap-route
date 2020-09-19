@@ -4,7 +4,7 @@
 
 Tmap Route는 Tmap API를 활용하여 **출발지와 목적지 경도/위도 정보를 통해 자동차 경로 및 도보 경로의 총 거리/소요시간을 쉽게 편리하게 계산하는 프로그램**입니다.
 
-**Tmap Route를 활용하기 위해선 Tmap API 발급이 필요합니다.** 자세한 사항은 [여기](https://tmapapi.sktelecom.com/main.html)를 참고해주세요.
+**Tmap Route를 활용하기 위해선 Tmap API 발급이 필요합니다.** 자세한 사항은 [여기](https://tmapapi.sktelecom.com/main.html#webv2/guide/apiGuide.guide2)를 참고해주세요.
 
 ## Requirements
 
