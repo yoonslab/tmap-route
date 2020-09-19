@@ -60,7 +60,7 @@ if __name__ == "__main__":
         dest="api_key",
         metavar="KEY",
         type=str,
-        default="l7xxff72107ab2cf4746b4556d74cc2d5b81",
+        required=True,
         help="api key",
     )
 
